@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokemon's Hunt</title>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  
+  <div id="app">
+    <div id="input-container">
+      <form id="inputForm">
+      <input id="search-input" placeholder="Start Hunt For Pokemon" autocomplete="off" required/>
+      <button id="search-button" type="submit">Search</button>
+      </form>
+    </div>
+   <div id="pokemon-container">
+     <div id="pokemon-feats">
+       <span id="pokemon-id"></span><span id="pokemon-name"> ??? </span>
+    </div>
+    <div id="types"><span id="type">???</span></div>
+    <img src="https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-Transparent.png" alt="pokemon-img" id="sprite" /> 
+   </div>
+   <div id="pokemon-info">
+     <p class="info">
+       <strong>Weight  </strong><span id="weight">???</span>
+     </p>
+     <p class="info">
+       <strong>Height  </strong><span id="height">???</span>
+     </p>
+     
+     <p class="info">
+       <strong>hp  </strong><span id="hp">???</span>
+     </p>
+     
+     <p class="info">
+       <strong>Attack  </strong><span id="attack">???</span>
+     </p>
+     
+     <p class="info">
+       <strong>Defense  </strong><span id="defense">???</span>
+     </p>
+          <p class="info">
+       <strong>Special Defense  </strong><span id="special-defense">???</span>
+     </p>
+      <p class="info">
+       <strong>Special Attack  </strong><span id="special-attack">???</span>
+     </p>
+     <p class="info">
+       <strong>Speed  </strong><span id="speed">???</span>
+     </p>
+   </div>
+    <div>
+      <script src="./script.js"></script>
 </body>
-</html>
